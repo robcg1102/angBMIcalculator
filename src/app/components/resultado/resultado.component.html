@@ -1,0 +1,26 @@
+<div class="row">
+  <div class="col-lg-4 offset-lg-4">
+    <h2 class="titulo">RESULTADO</h2>
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="fondoItem">
+          <div class="contenedor">
+            <p class="resultado">{{ resultado }}</p>
+            <p class="estiloNumero">{{ bmi }}</p>
+            <p class="interpretacion">{{ interpretacion }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <button
+          (click)="regresarPagina()"
+          class="btn btn-primary btn-lg btn-color"
+        >
+          RE-CALCULAR
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
